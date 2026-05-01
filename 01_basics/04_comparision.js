@@ -5,9 +5,8 @@
 // console.log(2 != 1);
 
 /*
-
+when the comparision b/w strings.num ,boolean 
 */
-
 console.log("2" > 1); //true
 console.log("02" > 1); //true
 console.log("2" > "12"); //true
