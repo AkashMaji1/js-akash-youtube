@@ -35,4 +35,24 @@ const myFunction = function(){
  console.log("hello world")
 }
 
+//+++++++++++++++++++++++++++++++Stack & Heap memory+++++++++++++++++++++++++++++
+//stack(primitive)
+let a = 10;
+let b = a;   // copy of value
+b = 20;
+console.log(a); // 10
+console.log(b); // 20
+
+//Heap (Non-primitive)
+let obj1 = {
+  name: "Akash"
+};
+let obj2 = obj1;  // reference copy
+obj2.name = "Rahul";
+
+console.log(obj1.name); // Rahul
+console.log(obj2.name); // Rahul
+
+
+
 
