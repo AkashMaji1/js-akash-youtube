@@ -19,3 +19,20 @@ let city=undefined
 
 console.log(typeof age);
 console.log(typeof state); // null=>object type
+
+//********************************DataTypes***********************************
+//1. primitive:
+//7Types=> string, Number, Boolean, Null, undefined, symbol, BigInt
+
+//2.Reference(Non premitive) : 
+// Arrays,Objects,Function
+const heros=[ "spiderman", "Iron Man", "Thor"]
+let myObj={
+ name:"akash",
+  age: 22,
+}
+const myFunction = function(){
+ console.log("hello world")
+}
+
+
